@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg"
+    tools:context=".MainActivity">
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="265dp"
+            android:layout_height="234dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_main_b"
+            android:layout_marginTop="40dp"
+            />
+        <!--<ProgressBar-->
+            <!--android:layout_marginTop="150dp"-->
+            <!--android:id="@+id/progress"-->
+            <!--android:indeterminateDrawable="@drawable/circle_progress_bar"-->
+            <!--android:indeterminateDuration="@android:integer/config_longAnimTime"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_marginBottom="12dp"/>-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="200dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Terms and Conditions"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <View
+                    android:layout_width="220dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="If a paying customer didn't pay yet, you can block or suspend access of that user to the app. If you avail our service's. You have to meet with our Marketing Manager"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+        </LinearLayout>
+</LinearLayout>

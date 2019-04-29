@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="18dp"
+    tools:context=".Sign_up"
+    android:background="@drawable/back2">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="210dp"
+        android:layout_height="157dp"
+        android:src="@drawable/logo_main_b" />
+
+    <EditText
+        android:id="@+id/signup_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="18dp"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:hint="Email"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="18dp"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:hint="Email"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/signup_pass"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="18dp"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:hint="Password"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="SignUp"/>
+    </LinearLayout>
